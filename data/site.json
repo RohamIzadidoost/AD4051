@@ -91,92 +91,92 @@
   ],
   "assignments": [
     {
-      "title": "HW01 \u2014 Dynamic Programming",
-      "description": "",
+      "title": "HW01 — Dynamic Programming",
+      "description": "Scheduled window: 7 Mehr – 20 Mehr (Persian calendar).",
       "due": "",
       "url": "",
       "kind": "Homework"
     },
     {
-      "title": "HW02 \u2014 Greedy Algorithms",
-      "description": "",
+      "title": "HW02 — Greedy Algorithms",
+      "description": "Scheduled window: 21 Mehr – 4 Aban (Persian calendar).",
       "due": "",
       "url": "",
       "kind": "Homework"
     },
     {
-      "title": "HW03 \u2014 Graph Algorithms",
-      "description": "",
+      "title": "HW03 — Graph Algorithms",
+      "description": "Scheduled window: 5 Aban – 18 Aban (Persian calendar).",
       "due": "",
       "url": "",
       "kind": "Homework"
     },
     {
-      "title": "HW04 \u2014 Minimum Spanning Trees",
-      "description": "",
+      "title": "HW04 — Minimum Spanning Trees",
+      "description": "Scheduled window: 19 Aban – 2 Azar (Persian calendar).",
       "due": "",
       "url": "",
       "kind": "Homework"
     },
     {
-      "title": "HW05 \u2014 Single-Source Shortest Paths",
-      "description": "",
+      "title": "HW05 — Single-Source Shortest Paths",
+      "description": "Scheduled window: 3 Azar – 16 Azar (Persian calendar).",
       "due": "",
       "url": "",
       "kind": "Homework"
     },
     {
-      "title": "HW06 \u2014 All-Pairs Shortest Paths & Network Flow",
-      "description": "",
+      "title": "HW06 — All-Pairs Shortest Paths & Network Flow",
+      "description": "Scheduled window: 17 Azar – 30 Azar (Persian calendar).",
       "due": "",
       "url": "",
       "kind": "Homework"
     },
     {
-      "title": "HW07 \u2014 NP-Completeness",
-      "description": "",
+      "title": "HW07 — NP-Completeness",
+      "description": "Scheduled window: 1 Dey – 14 Dey (Persian calendar).",
       "due": "",
       "url": "",
       "kind": "Homework"
     },
     {
-      "title": "Quiz \u2014 Dynamic Programming",
-      "description": "",
+      "title": "Quiz — Dynamic Programming",
+      "description": "Scheduled window: 21 Mehr – 27 Mehr (Persian calendar).",
       "due": "",
       "url": "",
       "kind": "Quiz"
     },
     {
-      "title": "Quiz \u2014 Greedy Algorithms",
-      "description": "",
+      "title": "Quiz — Greedy Algorithms",
+      "description": "Scheduled window: 5 Aban – 12 Aban (Persian calendar).",
       "due": "",
       "url": "",
       "kind": "Quiz"
     },
     {
-      "title": "Quiz \u2014 Graph Algorithms",
-      "description": "",
+      "title": "Quiz — Graph Algorithms",
+      "description": "Scheduled window: 19 Aban – 26 Aban (Persian calendar).",
       "due": "",
       "url": "",
       "kind": "Quiz"
     },
     {
-      "title": "Quiz \u2014 Minimum Spanning Trees",
-      "description": "",
+      "title": "Quiz — Minimum Spanning Trees",
+      "description": "Scheduled window: 3 Azar – 10 Azar (Persian calendar).",
       "due": "",
       "url": "",
       "kind": "Quiz"
     },
     {
-      "title": "Quiz \u2014 SSSP + APSP",
-      "description": "",
+      "title": "Quiz — SSSP + APSP",
+      "description": "Scheduled window: 17 Azar – 23 Azar (Persian calendar).",
       "due": "",
       "url": "",
       "kind": "Quiz"
     },
     {
-      "title": "Quiz \u2014 Network Flow",
-      "description": "",
+      "title": "Quiz — Network Flow",
+      "description": "Scheduled window: 1 Dey – 9 Dey (Persian calendar).",
       "due": "",
       "url": "",
       "kind": "Quiz"
@@ -189,7 +189,297 @@
       "kind": "Project"
     }
   ],
-  "schedule": [],
-  "lectures": [],
+  "schedule": [
+    {
+      "title": "Week 1",
+      "description": "Saturday, 28 Shahrivar: Lecture 1 — Dynamic Programming\nMonday, 30 Shahrivar: Lecture 2 — Dynamic Programming\nTA session: Ta class 1 ( Online ) Fundamentals · 28 Shahrivar – 3 Mehr",
+      "due": "28 Shahrivar – 3 Mehr",
+      "url": ""
+    },
+    {
+      "title": "Week 2",
+      "description": "Saturday, 4 Mehr: Lecture 3 — Dynamic Programming\nMonday, 6 Mehr: Lecture 4 — Dynamic Programming\nTA session: Ta class 2 DP · 4 Mehr – 10 Mehr\nHomework window: HW01 — Dynamic Programming · 7 Mehr – 20 Mehr",
+      "due": "4 Mehr – 10 Mehr",
+      "url": ""
+    },
+    {
+      "title": "Week 3",
+      "description": "Saturday, 11 Mehr: Lecture 5 — Dynamic Programming\nMonday, 13 Mehr: Lecture 6 — Greedy Algorithms\nTA session: Ta class 3 DP · 11 Mehr – 17 Mehr",
+      "due": "11 Mehr – 17 Mehr",
+      "url": ""
+    },
+    {
+      "title": "Week 4",
+      "description": "Saturday, 18 Mehr: Lecture 7 — Greedy Algorithms\nMonday, 20 Mehr: Lecture 8 — Greedy Algorithms\nTA session: Ta class 4 Greedy · 18 Mehr – 24 Mehr\nHomework window: HW02 — Greedy Algorithms · 21 Mehr – 4 Aban\nQuiz window: Quiz — Dynamic Programming · 21 Mehr – 27 Mehr",
+      "due": "18 Mehr – 24 Mehr",
+      "url": ""
+    },
+    {
+      "title": "Week 5",
+      "description": "Saturday, 25 Mehr: Lecture 9 — Greedy Algorithms\nMonday, 27 Mehr: Lecture 10 — Graph Algorithms\nTA session: Ta class 5 greedy · 25 Mehr – 1 Aban",
+      "due": "25 Mehr – 1 Aban",
+      "url": ""
+    },
+    {
+      "title": "Week 6",
+      "description": "Saturday, 2 Aban: Lecture 11 — Graph Algorithms\nMonday, 4 Aban: Lecture 12 — Graph Algorithms\nTA session: Ta class 6 graph · 2 Aban – 8 Aban\nHomework window: HW03 — Graph Algorithms · 5 Aban – 18 Aban\nQuiz window: Quiz — Greedy Algorithms · 5 Aban – 12 Aban",
+      "due": "2 Aban – 8 Aban",
+      "url": ""
+    },
+    {
+      "title": "Week 7",
+      "description": "Saturday, 9 Aban: Lecture 13 — Graph Algorithms\nMonday, 11 Aban: Lecture 14 — Minimum Spanning Trees\nTA session: Ta class 7 graph · 9 Aban – 15 Aban",
+      "due": "9 Aban – 15 Aban",
+      "url": ""
+    },
+    {
+      "title": "Week 8",
+      "description": "Saturday, 16 Aban: Lecture 15 — Minimum Spanning Trees\nMonday, 18 Aban: Lecture 16 — Minimum Spanning Trees\nTA session: Ta class 8 mst · 16 Aban – 22 Aban\nHomework window: HW04 — Minimum Spanning Trees · 19 Aban – 2 Azar\nQuiz window: Quiz — Graph Algorithms · 19 Aban – 26 Aban",
+      "due": "16 Aban – 22 Aban",
+      "url": ""
+    },
+    {
+      "title": "Week 9",
+      "description": "Saturday, 23 Aban: Lecture 17 — Single-Source Shortest Paths\nMonday, 25 Aban: Lecture 18 — Single-Source Shortest Paths\nTA session: Ta class 9 mst · 23 Aban – 29 Aban",
+      "due": "23 Aban – 29 Aban",
+      "url": ""
+    },
+    {
+      "title": "Week 10",
+      "description": "Saturday, 30 Aban: Lecture 19 — Single-Source Shortest Paths\nMonday, 2 Azar: Lecture 20 — Single-Source Shortest Paths\nTA session: Ta class 10 sssp · 30 Aban – 6 Azar\nHomework window: HW05 — Single-Source Shortest Paths · 3 Azar – 16 Azar\nQuiz window: Quiz — Minimum Spanning Trees · 3 Azar – 10 Azar",
+      "due": "30 Aban – 6 Azar",
+      "url": ""
+    },
+    {
+      "title": "Week 11",
+      "description": "Saturday, 7 Azar: Lecture 21 — All-Pairs Shortest Paths\nMonday, 9 Azar: Lecture 22 — All-Pairs Shortest Paths\nTA session: Ta class 11 APSP · 7 Azar – 13 Azar",
+      "due": "7 Azar – 13 Azar",
+      "url": ""
+    },
+    {
+      "title": "Week 12",
+      "description": "Saturday, 14 Azar: Lecture 23 — All-Pairs Shortest Paths\nMonday, 16 Azar: Lecture 24 — Network Flow\nTA session: Ta class 12 Flow · 14 Azar – 20 Azar\nHomework window: HW06 — All-Pairs Shortest Paths & Network Flow · 17 Azar – 30 Azar\nQuiz window: Quiz — SSSP + APSP · 17 Azar – 23 Azar",
+      "due": "14 Azar – 20 Azar",
+      "url": ""
+    },
+    {
+      "title": "Week 13",
+      "description": "Saturday, 21 Azar: Lecture 25 — Network Flow\nMonday, 23 Azar: Lecture 26 — Network Flow\nTA session: Ta class 13 Flow · 21 Azar – 27 Azar",
+      "due": "21 Azar – 27 Azar",
+      "url": ""
+    },
+    {
+      "title": "Week 14",
+      "description": "Saturday, 28 Azar: Lecture 27 — Network Flow\nMonday, 30 Azar: Lecture 28 — NP-Completeness\nTA session: Ta class 14 NP · 28 Azar – 4 Dey\nHomework window: HW07 — NP-Completeness · 1 Dey – 14 Dey\nQuiz window: Quiz — Network Flow · 1 Dey – 9 Dey",
+      "due": "28 Azar – 4 Dey",
+      "url": ""
+    },
+    {
+      "title": "Week 15",
+      "description": "Saturday, 5 Dey: Lecture 29 — NP-Completeness\nMonday, 7 Dey: Lecture 30 — NP-Completeness",
+      "due": "5 Dey – 11 Dey",
+      "url": ""
+    },
+    {
+      "title": "Week 16",
+      "description": "No lecture sessions listed.",
+      "due": "12 Dey – 18 Dey",
+      "url": ""
+    },
+    {
+      "title": "Week 17",
+      "description": "No lecture sessions listed.",
+      "due": "19 Dey – 25 Dey",
+      "url": ""
+    },
+    {
+      "title": "Week 18",
+      "description": "No lecture sessions listed.",
+      "due": "26 Dey – 30 Dey",
+      "url": ""
+    }
+  ],
+  "lectures": [
+    {
+      "title": "Lecture 01 — Dynamic Programming",
+      "description": "Week 1 · Saturday",
+      "due": "28 Shahrivar",
+      "url": ""
+    },
+    {
+      "title": "Lecture 02 — Dynamic Programming",
+      "description": "Week 1 · Monday",
+      "due": "30 Shahrivar",
+      "url": ""
+    },
+    {
+      "title": "Lecture 03 — Dynamic Programming",
+      "description": "Week 2 · Saturday",
+      "due": "4 Mehr",
+      "url": ""
+    },
+    {
+      "title": "Lecture 04 — Dynamic Programming",
+      "description": "Week 2 · Monday",
+      "due": "6 Mehr",
+      "url": ""
+    },
+    {
+      "title": "Lecture 05 — Dynamic Programming",
+      "description": "Week 3 · Saturday",
+      "due": "11 Mehr",
+      "url": ""
+    },
+    {
+      "title": "Lecture 06 — Greedy Algorithms",
+      "description": "Week 3 · Monday",
+      "due": "13 Mehr",
+      "url": ""
+    },
+    {
+      "title": "Lecture 07 — Greedy Algorithms",
+      "description": "Week 4 · Saturday",
+      "due": "18 Mehr",
+      "url": ""
+    },
+    {
+      "title": "Lecture 08 — Greedy Algorithms",
+      "description": "Week 4 · Monday",
+      "due": "20 Mehr",
+      "url": ""
+    },
+    {
+      "title": "Lecture 09 — Greedy Algorithms",
+      "description": "Week 5 · Saturday",
+      "due": "25 Mehr",
+      "url": ""
+    },
+    {
+      "title": "Lecture 10 — Graph Algorithms",
+      "description": "Week 5 · Monday",
+      "due": "27 Mehr",
+      "url": ""
+    },
+    {
+      "title": "Lecture 11 — Graph Algorithms",
+      "description": "Week 6 · Saturday",
+      "due": "2 Aban",
+      "url": ""
+    },
+    {
+      "title": "Lecture 12 — Graph Algorithms",
+      "description": "Week 6 · Monday",
+      "due": "4 Aban",
+      "url": ""
+    },
+    {
+      "title": "Lecture 13 — Graph Algorithms",
+      "description": "Week 7 · Saturday",
+      "due": "9 Aban",
+      "url": ""
+    },
+    {
+      "title": "Lecture 14 — Minimum Spanning Trees",
+      "description": "Week 7 · Monday",
+      "due": "11 Aban",
+      "url": ""
+    },
+    {
+      "title": "Lecture 15 — Minimum Spanning Trees",
+      "description": "Week 8 · Saturday",
+      "due": "16 Aban",
+      "url": ""
+    },
+    {
+      "title": "Lecture 16 — Minimum Spanning Trees",
+      "description": "Week 8 · Monday",
+      "due": "18 Aban",
+      "url": ""
+    },
+    {
+      "title": "Lecture 17 — Single-Source Shortest Paths",
+      "description": "Week 9 · Saturday",
+      "due": "23 Aban",
+      "url": ""
+    },
+    {
+      "title": "Lecture 18 — Single-Source Shortest Paths",
+      "description": "Week 9 · Monday",
+      "due": "25 Aban",
+      "url": ""
+    },
+    {
+      "title": "Lecture 19 — Single-Source Shortest Paths",
+      "description": "Week 10 · Saturday",
+      "due": "30 Aban",
+      "url": ""
+    },
+    {
+      "title": "Lecture 20 — Single-Source Shortest Paths",
+      "description": "Week 10 · Monday",
+      "due": "2 Azar",
+      "url": ""
+    },
+    {
+      "title": "Lecture 21 — All-Pairs Shortest Paths",
+      "description": "Week 11 · Saturday",
+      "due": "7 Azar",
+      "url": ""
+    },
+    {
+      "title": "Lecture 22 — All-Pairs Shortest Paths",
+      "description": "Week 11 · Monday",
+      "due": "9 Azar",
+      "url": ""
+    },
+    {
+      "title": "Lecture 23 — All-Pairs Shortest Paths",
+      "description": "Week 12 · Saturday",
+      "due": "14 Azar",
+      "url": ""
+    },
+    {
+      "title": "Lecture 24 — Network Flow",
+      "description": "Week 12 · Monday",
+      "due": "16 Azar",
+      "url": ""
+    },
+    {
+      "title": "Lecture 25 — Network Flow",
+      "description": "Week 13 · Saturday",
+      "due": "21 Azar",
+      "url": ""
+    },
+    {
+      "title": "Lecture 26 — Network Flow",
+      "description": "Week 13 · Monday",
+      "due": "23 Azar",
+      "url": ""
+    },
+    {
+      "title": "Lecture 27 — Network Flow",
+      "description": "Week 14 · Saturday",
+      "due": "28 Azar",
+      "url": ""
+    },
+    {
+      "title": "Lecture 28 — NP-Completeness",
+      "description": "Week 14 · Monday",
+      "due": "30 Azar",
+      "url": ""
+    },
+    {
+      "title": "Lecture 29 — NP-Completeness",
+      "description": "Week 15 · Saturday",
+      "due": "5 Dey",
+      "url": ""
+    },
+    {
+      "title": "Lecture 30 — NP-Completeness",
+      "description": "Week 15 · Monday",
+      "due": "7 Dey",
+      "url": ""
+    }
+  ],
   "materials": []
 }

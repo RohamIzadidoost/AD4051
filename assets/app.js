@@ -23,11 +23,17 @@ function taBar() {
 }
 function items(list,empty) {
  if(!list.length)return `<p class="empty">${empty}</p>`;
- return `<ul id="archive">${list.map((x,i)=>`<li class="${i%2?'alt':''}">${x.kind?`<span class="tag">${esc(x.kind)}</span>`:''}<h2>${esc(x.title)}</h2>${x.description?`<p class="prose">${esc(x.description)}</p>`:''}<div class="item-meta">${x.due?`<span>${route==='schedule'?'Date':'Due'}: ${esc(x.due)}</span>`:''}${safeURL(x.url)?`<a href="${esc(safeURL(x.url))}" target="_blank" rel="noopener">${route==='assignments'?'Download / details':'Open resource'} ↗</a>`:`<span class="muted">${route==='assignments'?'Not released yet':''}</span>`}</div></li>`).join('')}</ul>`;
+ return `<ul id="archive">${list.map((x,i)=>`<li class="${i%2?'alt':''}">${x.kind?`<span class="tag">${esc(x.kind)}</span>`:''}<h2>${esc(x.title)}</h2>${x.description?`<p class="prose">${esc(x.description)}</p>`:''}<div class="item-meta">${x.due?`<span>${['schedule','lectures'].includes(route)?'Date':'Due'}: ${esc(x.due)}</span>`:''}${safeURL(x.url)?`<a href="${esc(safeURL(x.url))}" target="_blank" rel="noopener">${route==='assignments'?'Download / details':'Open resource'} ↗</a>`:`<span class="muted">${route==='assignments'?'Not released yet':''}</span>`}</div></li>`).join('')}</ul>`;
+}
+function scheduleTable(list) {
+ if(!list.length)return '<p class="empty">The schedule will be published here.</p>';
+ return `<div class="semester-schedule"><table><thead><tr><th scope="col">Week</th><th scope="col">Dates</th><th scope="col">Lectures & activities</th></tr></thead><tbody>${list.map(x=>`<tr><th scope="row">${esc(x.title)}</th><td>${esc(x.due)}</td><td>${x.description.split('\n').map(line=>`<p class="${line.startsWith('Homework window:')?'schedule-homework':line.startsWith('Quiz window:')?'schedule-quiz':line.startsWith('TA session:')?'schedule-ta':''}">${esc(line)}</p>`).join('')}${safeURL(x.url)?`<a href="${esc(safeURL(x.url))}" target="_blank" rel="noopener">Open resource ↗</a>`:''}</td></tr>`).join('')}</tbody></table></div>`;
 }
 function renderPublic() {
  const c=document.querySelector('#content');
  if(route==='home')c.innerHTML=`${data.announcement?`<div class="announcement-box prose">${esc(data.announcement)}</div>`:''}<p class="prose">${esc(data.description)}</p><h2>Instructor</h2><p>${esc(data.professor)}</p><h2>Course Information</h2><p><strong>Semester:</strong> ${esc(data.semester)}<br><strong>University:</strong> ${esc(data.school)}</p><h2>Course Topics</h2><ul>${data.assignments.filter(a=>a.kind==='Homework').map(a=>`<li>${esc(a.title.replace(/^HW\d+\s*[—–-]\s*/,''))}</li>`).join('')}</ul><p>See the <a href="${href('assignments/')}">assignments</a> for homework, quizzes, and the course project.</p>`;
+ else if(route==='schedule')c.innerHTML='<p>Semester schedule · Persian calendar</p><p class="muted">Homework and quiz dates are scheduled windows. TA sessions are listed within their scheduled week; exact session times are not specified.</p>'+scheduleTable(data.schedule);
+ else if(route==='lectures')c.innerHTML='<p>Lecture topics and dates · Persian calendar. Resource links will be added as they become available.</p>'+items(data.lectures,'Lectures will be published here.');
  else if(route==='assignments')c.innerHTML='<p>You can download the assignments here. Also check out each assignment page for any additional info.</p>'+items(data.assignments,'Assignments will be published here.');
  else c.innerHTML=items(data[route]||[],`${nav.find(n=>n[0]===route)?.[1]||'Content'} will be published here.`);
 }
