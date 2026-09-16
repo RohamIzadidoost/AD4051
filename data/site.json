@@ -1,0 +1,195 @@
+{
+  "title": "Algorithm Design",
+  "semester": "4051",
+  "professor": "Dr. Marzieh Maleki Majd",
+  "description": "This course covers the design and analysis of algorithms, including dynamic programming, greedy algorithms, graph algorithms, shortest paths, network flow, and NP-completeness.",
+  "announcement": "",
+  "school": "Iran University of Science and Technology (IUST)",
+  "telegram": "",
+  "quera": "",
+  "tas": [
+    {
+      "name": "Sara Ahmadi",
+      "role": "hw01-DP, quiz DP",
+      "photo": ""
+    },
+    {
+      "name": "Amirhossein Rastegar",
+      "role": "hw01-DP, hw02-Greedy",
+      "photo": ""
+    },
+    {
+      "name": "Mehdi Taghi Dolabi",
+      "role": "hw01-DP, hw02-Greedy",
+      "photo": ""
+    },
+    {
+      "name": "Saman Khajeh Amiri",
+      "role": "hw02-Greedy, quiz Greedy",
+      "photo": ""
+    },
+    {
+      "name": "Mahya Moeini",
+      "role": "hw03-Graph, hw07-NP, quiz Graph",
+      "photo": ""
+    },
+    {
+      "name": "Niku Labbafi",
+      "role": "hw03-Graph, hw06-APSP + Flow",
+      "photo": ""
+    },
+    {
+      "name": "Zahra Fayyazi",
+      "role": "hw03-Graph, hw07-NP",
+      "photo": ""
+    },
+    {
+      "name": "Javad Faraji",
+      "role": "hw04-MST, hw05-SSSP",
+      "photo": ""
+    },
+    {
+      "name": "Taraneh Abdollahi",
+      "role": "hw04-MST, quiz MST",
+      "photo": ""
+    },
+    {
+      "name": "Mobina Hassanzadeh",
+      "role": "hw04-MST, hw05-SSSP",
+      "photo": ""
+    },
+    {
+      "name": "Aynaz Hamedi",
+      "role": "hw05-SSSP, hw06-APSP + Flow",
+      "photo": ""
+    },
+    {
+      "name": "Sina Fallahi",
+      "role": "hw06-APSP + Flow, quiz Flow",
+      "photo": ""
+    },
+    {
+      "name": "Morteza Rahimi",
+      "role": "hw07-NP, HW Head",
+      "photo": ""
+    },
+    {
+      "name": "Ali Sharezaie",
+      "role": "quiz05 (SSSP + APSP), Quiz Head",
+      "photo": ""
+    },
+    {
+      "name": "Mani Zamani",
+      "role": "Project",
+      "photo": ""
+    },
+    {
+      "name": "Roham Izadidoost",
+      "role": "Head TA",
+      "photo": ""
+    }
+  ],
+  "assignments": [
+    {
+      "title": "HW01 \u2014 Dynamic Programming",
+      "description": "",
+      "due": "",
+      "url": "",
+      "kind": "Homework"
+    },
+    {
+      "title": "HW02 \u2014 Greedy Algorithms",
+      "description": "",
+      "due": "",
+      "url": "",
+      "kind": "Homework"
+    },
+    {
+      "title": "HW03 \u2014 Graph Algorithms",
+      "description": "",
+      "due": "",
+      "url": "",
+      "kind": "Homework"
+    },
+    {
+      "title": "HW04 \u2014 Minimum Spanning Trees",
+      "description": "",
+      "due": "",
+      "url": "",
+      "kind": "Homework"
+    },
+    {
+      "title": "HW05 \u2014 Single-Source Shortest Paths",
+      "description": "",
+      "due": "",
+      "url": "",
+      "kind": "Homework"
+    },
+    {
+      "title": "HW06 \u2014 All-Pairs Shortest Paths & Network Flow",
+      "description": "",
+      "due": "",
+      "url": "",
+      "kind": "Homework"
+    },
+    {
+      "title": "HW07 \u2014 NP-Completeness",
+      "description": "",
+      "due": "",
+      "url": "",
+      "kind": "Homework"
+    },
+    {
+      "title": "Quiz \u2014 Dynamic Programming",
+      "description": "",
+      "due": "",
+      "url": "",
+      "kind": "Quiz"
+    },
+    {
+      "title": "Quiz \u2014 Greedy Algorithms",
+      "description": "",
+      "due": "",
+      "url": "",
+      "kind": "Quiz"
+    },
+    {
+      "title": "Quiz \u2014 Graph Algorithms",
+      "description": "",
+      "due": "",
+      "url": "",
+      "kind": "Quiz"
+    },
+    {
+      "title": "Quiz \u2014 Minimum Spanning Trees",
+      "description": "",
+      "due": "",
+      "url": "",
+      "kind": "Quiz"
+    },
+    {
+      "title": "Quiz \u2014 SSSP + APSP",
+      "description": "",
+      "due": "",
+      "url": "",
+      "kind": "Quiz"
+    },
+    {
+      "title": "Quiz \u2014 Network Flow",
+      "description": "",
+      "due": "",
+      "url": "",
+      "kind": "Quiz"
+    },
+    {
+      "title": "Course Project",
+      "description": "",
+      "due": "",
+      "url": "",
+      "kind": "Project"
+    }
+  ],
+  "schedule": [],
+  "lectures": [],
+  "materials": []
+}
