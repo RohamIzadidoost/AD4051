@@ -481,5 +481,54 @@
       "url": ""
     }
   ],
-  "materials": []
+  "materials": [
+    {
+      "title": "DA DP1",
+      "description": "",
+      "due": "",
+      "url": "materials/files/DA DP1.pdf"
+    },
+    {
+      "title": "DA DP2",
+      "description": "",
+      "due": "",
+      "url": "materials/files/DA DP2.pdf"
+    },
+    {
+      "title": "DA Greedy",
+      "description": "",
+      "due": "",
+      "url": "materials/files/DA Greedy.pdf"
+    },
+    {
+      "title": "DA Graph",
+      "description": "",
+      "due": "",
+      "url": "materials/files/DA Graph.pdf"
+    },
+    {
+      "title": "DA MST",
+      "description": "",
+      "due": "",
+      "url": "materials/files/DA MST.pdf"
+    },
+    {
+      "title": "DA SSSP",
+      "description": "",
+      "due": "",
+      "url": "materials/files/DA SSSP.pdf"
+    },
+    {
+      "title": "DA allPairsSP",
+      "description": "",
+      "due": "",
+      "url": "materials/files/DA allPairsSP.pdf"
+    },
+    {
+      "title": "DA Flow",
+      "description": "",
+      "due": "",
+      "url": "materials/files/DA Flow.pdf"
+    }
+  ]
 }
