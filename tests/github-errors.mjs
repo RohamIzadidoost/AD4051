@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import { githubError } from '../assets/github-errors.mjs';
+const response = (status, message, headers={}) => new Response(JSON.stringify({message}), {status,headers});
+const forbidden=await githubError(response(403,'Resource not accessible by personal access token'));
+assert.match(forbidden,/Resource not accessible by personal access token/);
+assert.match(forbidden,/Only select repositories → AD4051/);
+assert.match(forbidden,/Contents = Read and write/);
+assert.match(forbidden,/restore it after connecting/);
+const limited=await githubError(response(403,'API rate limit exceeded',{'x-ratelimit-remaining':'0','retry-after':'60'}));
+assert.match(limited,/Wait 60 seconds/);assert.doesNotMatch(limited,/token settings/);
+assert.match(await githubError(response(401,'Bad credentials')),/invalid, expired, or revoked/);
+assert.match(await githubError(response(409,'Conflict')),/Export your draft/);
+assert.match(await githubError(new Response('Unavailable',{status:502})),/GitHub 502/);
+assert.match(await githubError(response(403,'Protected branch update failed')),/Protected branch update failed/);
+console.log('PASS: permission, authentication, rate limit, conflict, branch restriction, and non-JSON errors');
