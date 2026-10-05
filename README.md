@@ -13,6 +13,10 @@ For publishing, create a fine-grained GitHub token restricted to this repository
 
 Alternatively edit `data/site.json` directly in GitHub. For assignment PDFs, upload files to the repository or another host and enter their URLs. Leave unknown dates and URLs blank. Export JSON downloads a backup that can replace `data/site.json` through GitHub.
 
+## TA videos
+
+The Videos page lists TA recordings grouped by topic. Video files live in `videos/files/<topic>/` (MP4 with H.264/AAC plays in all browsers). Add a file to the repository, then add an entry under TA videos in Admin Panel (or `videos` in `data/site.json`) with its title, topic, TA name, description, and path. GitHub rejects files over 100 MB; compress longer recordings or host them elsewhere and enter the URL.
+
 ## Local development
 
 No build step or runtime dependencies. Run `python3 -m http.server 8080` in the repository and open http://localhost:8080. Do not open HTML as file:// because content is loaded with fetch.

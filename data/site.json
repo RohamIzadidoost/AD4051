@@ -530,5 +530,28 @@
       "due": "",
       "url": "materials/files/DA Flow.pdf"
     }
+  ],
+  "videos": [
+    {
+      "title": "Edit Distance — Theory",
+      "topic": "Dynamic Programming",
+      "ta": "Sara Ahmadi",
+      "description": "Edit distance with dynamic programming, motivated by autocorrect.",
+      "url": "videos/files/dp/sara-ahmadi-edit-distance-theory.mp4"
+    },
+    {
+      "title": "Edit Distance — Live Coding",
+      "topic": "Dynamic Programming",
+      "ta": "Sara Ahmadi",
+      "description": "Implementing the edit distance solution step by step.",
+      "url": "videos/files/dp/sara-ahmadi-edit-distance-live-coding.mp4"
+    },
+    {
+      "title": "Word Break — Live Coding",
+      "topic": "Dynamic Programming",
+      "ta": "Mehdi Taghi Dolabi",
+      "description": "Solving the word break problem with dynamic programming.",
+      "url": "videos/files/dp/mehdi-taghi-dolabi-word-break-live-coding.mp4"
+    }
   ]
 }
