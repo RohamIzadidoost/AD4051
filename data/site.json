@@ -92,10 +92,11 @@
   "assignments": [
     {
       "title": "HW01 — Dynamic Programming",
-      "description": "Scheduled window: 7 Mehr – 20 Mehr (Persian calendar).",
-      "due": "",
-      "url": "",
-      "kind": "Homework"
+      "description": "Released 7 Mehr. Submit your answers as a single PDF named Hw1_StudentID_StudentName.pdf on Quera only.\nUp to 3 late days per assignment, 10 late days in total without penalty.\nDesigned by Amirhossein Rastegar, Mehdi Taghi Dolabi, and Sara Ahmadi.",
+      "due": "21 Mehr",
+      "url": "assignments/files/ADA_HW01.pdf",
+      "kind": "Homework",
+      "submit": "https://quera.org/course/assignments/107309/problems"
     },
     {
       "title": "HW02 — Greedy Algorithms",
