@@ -96,14 +96,16 @@
       "due": "21 Mehr",
       "url": "assignments/files/ADA_HW01.pdf",
       "kind": "Homework",
-      "submit": "https://quera.org/course/assignments/107309/problems"
+      "submit": "https://quera.org/course/assignments/107309/problems",
+      "solution": "assignments/files/ADA_HW01_ANS.pdf"
     },
     {
       "title": "HW02 — Greedy Algorithms",
-      "description": "Scheduled window: 21 Mehr – 4 Aban (Persian calendar).",
-      "due": "",
-      "url": "",
-      "kind": "Homework"
+      "description": "Released 22 Mehr. Submit your answers as a single PDF named Hw2_StudentID_StudentName.pdf on Quera only.\nUp to 3 late days per assignment, 10 late days in total without penalty.\nDesigned by Mehdi Taghi Dolabi, Saman Khajeh Amiri, and Morteza Rahimi.",
+      "due": "5 Aban",
+      "url": "assignments/files/ADA_HW02.pdf",
+      "kind": "Homework",
+      "submit": "https://quera.org/course/assignments/107637/problems"
     },
     {
       "title": "HW03 — Graph Algorithms",
@@ -553,6 +555,20 @@
       "ta": "Mehdi Taghi Dolabi",
       "description": "Solving the word break problem with dynamic programming.",
       "url": "videos/files/dp/mehdi-taghi-dolabi-word-break-live-coding.mp4"
+    },
+    {
+      "title": "Container With Most Water — Live Coding",
+      "topic": "Greedy Algorithms",
+      "ta": "Saman Khajeh Amiri",
+      "description": "Solving the container with most water problem with a greedy two-pointer approach.",
+      "url": "videos/files/greedy/saman-khajeh-amiri-container-with-most-water-live-coding.mp4"
+    },
+    {
+      "title": "Partition Labels — Live Coding",
+      "topic": "Greedy Algorithms",
+      "ta": "Mehdi Taghi Dolabi",
+      "description": "Splitting a string into the most parts so each letter appears in only one part, using a greedy approach.",
+      "url": "videos/files/greedy/mehdi-taghi-dolabi-partition-labels-live-coding.mp4"
     }
   ]
 }
