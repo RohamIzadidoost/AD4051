@@ -569,6 +569,13 @@
       "ta": "Mehdi Taghi Dolabi",
       "description": "Splitting a string into the most parts so each letter appears in only one part, using a greedy approach.",
       "url": "videos/files/greedy/mehdi-taghi-dolabi-partition-labels-live-coding.mp4"
+    },
+    {
+      "title": "Dominos — Live Coding",
+      "topic": "Graph Algorithms",
+      "ta": "Mahya Moeini",
+      "description": "Finding the minimum number of dominos to knock over by hand, using strongly connected components and counting components with no incoming edges.",
+      "url": "videos/files/graph/mahya-moeini-dominos-live-coding.mp4"
     }
   ]
 }
