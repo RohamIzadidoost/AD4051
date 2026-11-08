@@ -576,6 +576,13 @@
       "ta": "Mahya Moeini",
       "description": "Finding the minimum number of dominos to knock over by hand, using strongly connected components and counting components with no incoming edges.",
       "url": "videos/files/graph/mahya-moeini-dominos-live-coding.mp4"
+    },
+    {
+      "title": "New Roads Without Shortening the Path — Theory & Live Coding",
+      "topic": "Graph Algorithms",
+      "ta": "Niku Labbafi",
+      "description": "Counting the new roads that can be added without shortening the distance from s to t, using BFS from both s and t.",
+      "url": "videos/files/graph/niku-labbafi-new-roads-shortest-path-live-coding.mp4"
     }
   ]
 }
